@@ -1,0 +1,337 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="" version="7.5.0" title="Shotcut version 21.12.24" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" out="00:09:59.880">
+    <property name="length">00:09:59.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/2.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">1ec785d88724ea78fd925792c5f78591</property>
+  </chain>
+  <chain id="chain1" out="00:06:48.840">
+    <property name="length">00:06:48.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/3.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">115ba9caf80bb4fac481b68f2db76062</property>
+  </chain>
+  <chain id="chain2" out="00:03:43.240">
+    <property name="length">00:03:43.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/4 (2).avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">95c19627823233cf3579a962690d3fc2</property>
+  </chain>
+  <chain id="chain3" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+  </chain>
+  <chain id="chain4" out="00:01:32.960">
+    <property name="length">00:01:33.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/6.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">806dee5f3922ac22e7a592247aafcb40</property>
+  </chain>
+  <playlist id="main_bin" title="Shotcut version 21.12.24">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:09:59.880"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:06:48.840"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:03:43.240"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:09:05.080"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:01:32.960"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:09:13.000">
+    <property name="length">00:09:13.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:09:13.000"/>
+  </playlist>
+  <chain id="chain5" out="00:03:43.240">
+    <property name="length">00:03:43.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/4 (2).avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">95c19627823233cf3579a962690d3fc2</property>
+    <property name="shotcut:caption">4 (2).avi</property>
+  </chain>
+  <chain id="chain6" out="00:03:43.240">
+    <property name="length">00:03:43.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/4 (2).avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">95c19627823233cf3579a962690d3fc2</property>
+    <property name="shotcut:caption">4 (2).avi</property>
+  </chain>
+  <chain id="chain7" out="00:03:43.240">
+    <property name="length">00:03:43.280</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/4 (2).avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">95c19627823233cf3579a962690d3fc2</property>
+    <property name="shotcut:caption">4 (2).avi</property>
+  </chain>
+  <chain id="chain8" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain9" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain10" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain11" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain12" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain13" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain14" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain15" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain16" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain17" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain18" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain19" out="00:09:05.080">
+    <property name="length">00:09:05.120</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/5.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">64dcc34e797c527ea1f85c021c195b90</property>
+    <property name="shotcut:caption">5.avi</property>
+  </chain>
+  <chain id="chain20" out="00:01:32.960">
+    <property name="length">00:01:33.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/Administrator/Documents/Bandicam/6.avi</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">806dee5f3922ac22e7a592247aafcb40</property>
+    <property name="shotcut:caption">6.avi</property>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain5" in="00:00:00.000" out="00:00:57.040"/>
+    <entry producer="chain6" in="00:01:06.120" out="00:01:41.280"/>
+    <entry producer="chain7" in="00:01:52.080" out="00:02:43.320"/>
+    <entry producer="chain8" in="00:00:00.000" out="00:00:32.160"/>
+    <entry producer="chain9" in="00:00:35.760" out="00:01:10.360"/>
+    <entry producer="chain10" in="00:01:24.640" out="00:01:34.560"/>
+    <entry producer="chain11" in="00:01:41.680" out="00:01:52.680"/>
+    <entry producer="chain12" in="00:02:06.120" out="00:02:35.080"/>
+    <entry producer="chain13" in="00:02:39.960" out="00:02:52.920"/>
+    <entry producer="chain14" in="00:03:24.720" out="00:04:12.200"/>
+    <entry producer="chain15" in="00:04:55.920" out="00:05:18.280"/>
+    <entry producer="chain16" in="00:05:28.480" out="00:05:59.040"/>
+    <entry producer="chain17" in="00:06:13.040" out="00:06:22.800"/>
+    <entry producer="chain18" in="00:06:34.360" out="00:08:03.600"/>
+    <entry producer="chain19" in="00:08:16.840" out="00:08:34.240"/>
+    <entry producer="chain20" in="00:00:30.400" out="00:01:32.960"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 21.12.24" in="00:00:00.000" out="00:09:13.000">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="shotcut:scaleFactor">0.371386</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
